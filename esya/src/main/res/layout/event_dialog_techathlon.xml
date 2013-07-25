@@ -3,6 +3,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:id="@+id/dialog_event_techathlon"
               android:orientation="vertical"
+              android:padding="5dp"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
@@ -11,4 +12,22 @@
             android:layout_height="wrap_content"
             android:id="@+id/imageView"
             android:src="@drawable/event_techathlon"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="About"
+            android:id="@+id/aboutTitleTechathlon"
+            android:layout_gravity="left|center_vertical"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Techathlon will test teams on a number of skills and a wide variety of technical challenges. From programming to systems management, the winning team will have to specialize in several areas. This two-day marathon will put your efficiency and speed across a multitude of tasks to the test.
+\n
+\nTeams with the highest aggregate scores will progress to the finale, Toast to Code. Details of this event are secret, and will be revealed on the spot!"
+            android:id="@+id/aboutTextTechathlon"
+            android:layout_gravity="center"/>
+
 </LinearLayout>

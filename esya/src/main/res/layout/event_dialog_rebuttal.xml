@@ -3,6 +3,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:id="@+id/dialog_event_rebuttal"
               android:orientation="vertical"
+              android:padding="5dp"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
@@ -11,4 +12,23 @@
             android:layout_height="wrap_content"
             android:id="@+id/imageView"
             android:src="@drawable/event_rebuttal"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="About"
+            android:id="@+id/aboutTitleRebuttal"
+            android:layout_gravity="left|center_vertical"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="     What good is an idea if it doesn’t sell? 
+\n
+\nAt Esya 2013, the technical festival of IIIT Delhi, we invite all passionate orators to participate in Rebuttal, a GD-Extempore-Debate competition.
+\nThis event will test your ability to put forward your views as convincingly as possible."
+            android:id="@+id/aboutTextRebuttal"
+            android:layout_gravity="center"/>
+
 </LinearLayout>

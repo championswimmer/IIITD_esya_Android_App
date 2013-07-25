@@ -3,6 +3,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:id="@+id/dialog_event_pwned"
               android:orientation="vertical"
+              android:padding="5dp"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
@@ -11,4 +12,23 @@
             android:layout_height="wrap_content"
             android:id="@+id/imageView"
             android:src="@drawable/event_pwned"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="About"
+            android:id="@+id/aboutTitlePwned"
+            android:layout_gravity="left|center_vertical"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="So, the most happening, most incredible, most awaited college gaming event in Delhi is back, and this time we come up with prizes worth a total of Forty grands. We bring forth games with incredible player bases like Dota 2, Counter Strike, Fifa, NFS MW and all that we fashion. As we know it, we’re calling for an all night LAN party.
+\n
+\nSo bring your gear, bring all your support and all you need to rip out on everyone against.
+\n      INB4 lots of drama, lots of action, lots of everything."
+            android:id="@+id/aboutTextPwned"
+            android:layout_gravity="center"/>
+
 </LinearLayout>

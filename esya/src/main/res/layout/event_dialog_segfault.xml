@@ -3,6 +3,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:id="@+id/dialog_event_segfault"
               android:orientation="vertical"
+              android:padding="5dp"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
@@ -11,4 +12,22 @@
             android:layout_height="wrap_content"
             android:id="@+id/imageView"
             android:src="@drawable/event_segfault"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="About"
+            android:id="@+id/aboutTitleSegfault"
+            android:layout_gravity="left|center_vertical"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome aboard, budding debuggers, as we take you through ninety minutes of frenzied debugging where you compete with the best of them to determine the top-notch debuggers! It is one thing to write clean and precise codes and a completely different one to understand the psychology behind pre-written codes and find bugs in them.
+\n
+\n“Segmentation Fault” is your best friend? Tons of patience is what you have? Thoughts of giving up stay away from you? This is the event to master."
+            android:id="@+id/aboutTextSegfault"
+            android:layout_gravity="center"/>
+
 </LinearLayout>

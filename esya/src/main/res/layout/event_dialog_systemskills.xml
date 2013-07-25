@@ -3,6 +3,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:id="@+id/dialog_event_systemskills"
               android:orientation="vertical"
+              android:padding="5dp"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
@@ -11,4 +12,20 @@
             android:layout_height="wrap_content"
             android:id="@+id/imageView"
             android:src="@drawable/event_systemskills"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="About"
+            android:id="@+id/aboutTitleSystemskills"
+            android:layout_gravity="left|center_vertical"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You think you know all the ins and outs of your computer system ? You can write scripts to perform some tasks in Linux faster and better than your competitors ? The event will test your presence of mind and system skills. Armed with the power of internet and your wits you will be writing some down to kernel shell scripting. So come fresh with a competitive mindset. We are waiting for you to showcase your System Skills !"
+            android:id="@+id/aboutTextSystemskills"
+            android:layout_gravity="center"/>
+
 </LinearLayout>

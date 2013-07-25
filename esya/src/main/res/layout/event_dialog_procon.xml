@@ -3,6 +3,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:id="@+id/dialog_event_procon"
               android:orientation="vertical"
+              android:padding="5dp"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
@@ -11,4 +12,21 @@
             android:layout_height="wrap_content"
             android:id="@+id/imageView"
             android:src="@drawable/event_procon"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="About"
+            android:id="@+id/aboutTitleProcon"
+            android:layout_gravity="left|center_vertical"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The heart of computer science is in coding. The power of coding can not be undermined. It’s the power of programming which has reduced some of the most ambiguous, tricky and impossible looking tasks to a mere job of writing a computer program and asking the obedient machine to solve them with its hasty computing capacity.
+\nYou get an amazing chance this August to win it over. With questions set to challenge you to bring out the best in you. We call out to all you people hungry for coding, come over to Esya, have fun with all your friends, be part of Techathalon a one of its kind event and walk away with lots of prizes and awesome memories. Come, prove your dominion. Show us your skill, creativity, swiftness and aptitude and you shall be rewarded. Be ready for a 2 hour coding marathon!"
+            android:id="@+id/aboutTextProcon"
+            android:layout_gravity="center"/>
+
 </LinearLayout>

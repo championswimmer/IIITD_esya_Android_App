@@ -3,6 +3,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:id="@+id/dialog_event_blooddonate"
               android:orientation="vertical"
+              android:padding="5dp"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
@@ -11,4 +12,20 @@
             android:layout_height="wrap_content"
             android:id="@+id/imageView"
             android:src="@drawable/event_blooddonate"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="About"
+            android:id="@+id/aboutTitleBlooddonate"
+            android:layout_gravity="left|center_vertical"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Esya is not just a technical festival it is also an event in which we try to give back to the community. We the people at IIIT Delhi believe that we need to care for the society as a whole and give back in whatever way we can. We believe that students should take charge in that and lead forward. Taking this thinking forward we are going to organize a blood donation camp at IIITD in association with Blood Connect, a student run organization which conducts blood donation drives at various colleges."
+            android:id="@+id/aboutTextBlooddonate"
+            android:layout_gravity="center"/>
+
 </LinearLayout>

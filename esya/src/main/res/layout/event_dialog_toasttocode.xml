@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:id="@+id/dialog_event_toasttocode"
+              android:id="@+id/dialog_event_Toasttocode"
               android:orientation="vertical"
+              android:padding="5dp"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
@@ -11,4 +12,23 @@
             android:layout_height="wrap_content"
             android:id="@+id/imageView"
             android:src="@drawable/event_toasttocode"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="About"
+            android:id="@+id/aboutTitleToasttocode"
+            android:layout_gravity="left|center_vertical"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="“Its Ultimate”. It is the only thing that can be disclosed right now. 
+\n
+\nTop 4 teams completing any 4 of the 6 Techathlon events qualify for the finale.
+\nAll the required details would be delivered before the finale begins. "
+            android:id="@+id/aboutTextToasttocode"
+            android:layout_gravity="center"/>
+
 </LinearLayout>

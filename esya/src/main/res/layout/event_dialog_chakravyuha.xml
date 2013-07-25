@@ -3,6 +3,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:id="@+id/dialog_event_chakravyuha"
               android:orientation="vertical"
+              android:padding="5dp"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
@@ -11,4 +12,21 @@
             android:layout_height="wrap_content"
             android:id="@+id/imageView"
             android:src="@drawable/event_chakravyuha"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="About"
+            android:id="@+id/aboutTitleChakravyuha"
+            android:layout_gravity="left|center_vertical"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chakravyuha the online treasure hunt consists of 25 levels each consisting of one or more puzzles that the participant will solve to advance to higher levels and get one step closer to coming out of the Chakravyuha. In the end only one lucky guy can come out of the Chakravyuha. To come out of this modern Chakravyuha all you need is a bit of brains and the skill of using a tool named Google properly. Besides this no other skill or technical knowledge would be required at any level of the Chakravyuha."
+            android:id="@+id/aboutTextChakravyuha"
+            android:layout_gravity="center"/>
+
+
 </LinearLayout>

@@ -3,6 +3,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:id="@+id/dialog_event_sudoku"
               android:orientation="vertical"
+              android:padding="5dp"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
@@ -11,4 +12,23 @@
             android:layout_height="wrap_content"
             android:id="@+id/imageView"
             android:src="@drawable/event_sudoku"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="About"
+            android:id="@+id/aboutTitleSudoku"
+            android:layout_gravity="left|center_vertical"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nLove playing with numbers? Then this is certainly your zone! This number placement game needs no introduction! Played with a single objective “the digits must remain single”. However, it won’t be so easy!
+\n    Be a part of this intriguing game &amp; discover the jinks!
+
+\nThis is to be played individually. They have to solve it in given time i.e 5 – 8 mins.The participant who solves it in the minimum time wins!"
+            android:id="@+id/aboutTextSudoku"
+            android:layout_gravity="center"/>
+
 </LinearLayout>

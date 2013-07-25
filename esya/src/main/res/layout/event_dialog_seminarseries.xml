@@ -3,6 +3,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:id="@+id/dialog_event_seminarseries"
               android:orientation="vertical"
+              android:padding="5dp"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
@@ -11,4 +12,21 @@
             android:layout_height="wrap_content"
             android:id="@+id/imageView"
             android:src="@drawable/event_seminarseries"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="About"
+            android:id="@+id/aboutTitleSeminarseries"
+            android:layout_gravity="left|center_vertical"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is a two day event, which would witness distinguished personalities from different walks of life discussing the various technologies swarming the IT industry these days and present their ideas of technological innovation and entrepreneurship.
+\nThe motive of the event is to apprise the students of the current trends in the industry and to introduce them to the ideas that have taken the industry by storm."
+            android:id="@+id/aboutTextSeminarseries"
+            android:layout_gravity="center"/>
+
 </LinearLayout>

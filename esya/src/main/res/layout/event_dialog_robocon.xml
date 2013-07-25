@@ -3,6 +3,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:id="@+id/dialog_event_robocon"
               android:orientation="vertical"
+              android:padding="5dp"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
@@ -11,4 +12,32 @@
             android:layout_height="wrap_content"
             android:id="@+id/imageView"
             android:src="@drawable/event_robocon"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="About"
+            android:id="@+id/aboutTitleRobocon"
+            android:layout_gravity="left|center_vertical"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    White line took my baby
+\n    Led him down that dark highway
+\n    Headlight blind, driving crazy
+\n    If my wheels keep turning
+\n    Gonna roll that white line away
+\n
+\nIIITD presents their Robotics Event for their Techfest-Esya ’13.
+\n
+\nThis event is the breeding ground for revolutionary ideas and dazzling innovations with teams competing with Line Following Robots over 3 exciting rounds.
+\n
+\nPrizes worth Rs. 20,000 to be won!
+\n
+\n      Let’s kick some RoButt!"
+            android:id="@+id/aboutTextRobocon"
+            android:layout_gravity="center"/>
+
 </LinearLayout>

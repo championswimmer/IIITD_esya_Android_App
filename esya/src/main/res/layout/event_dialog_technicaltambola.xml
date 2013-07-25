@@ -3,6 +3,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:id="@+id/dialog_event_technicaltambola"
               android:orientation="vertical"
+              android:padding="5dp"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
@@ -11,4 +12,24 @@
             android:layout_height="wrap_content"
             android:id="@+id/imageView"
             android:src="@drawable/event_technicaltambola"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="About"
+            android:id="@+id/aboutTitleTechnicaltambola"
+            android:layout_gravity="left|center_vertical"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Here’s an exciting event but with a technical tadka! Guess &amp; strike correct answers instead of numbers.
+\n    Who has the luck &amp; finishes it faster wins Megabucks!! So come &amp; grab it!!!
+\n
+\nWe will provide tickets to the participants with answers instead of numbers on the tickets.
+Questions will be displayed randomly on the screen. You have to cross out the correct answers if they are present in the tickets."
+            android:id="@+id/aboutTextTechnicaltambola"
+            android:layout_gravity="center"/>
+
 </LinearLayout>

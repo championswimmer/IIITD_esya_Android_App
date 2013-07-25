@@ -3,6 +3,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:id="@+id/dialog_event_wordtussle"
               android:orientation="vertical"
+              android:padding="5dp"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
@@ -11,4 +12,23 @@
             android:layout_height="wrap_content"
             android:id="@+id/imageView"
             android:src="@drawable/event_wordtussle"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="About"
+            android:id="@+id/aboutTitleWordtussle"
+            android:layout_gravity="left|center_vertical"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\n     Its only words and words are all you have to take the prize away….! Its time for ‘word war’! Take a chance in the exhilarating game and take away the crown! 
+\n
+\nIndividual participating. A grid will be displayed on the screen as well as on the sheets. They have to make words. Different marks will be given depending on the length of the word.
+The one with the highest marks wins!"
+            android:id="@+id/aboutTextWordtussle"
+            android:layout_gravity="center"/>
+
 </LinearLayout>

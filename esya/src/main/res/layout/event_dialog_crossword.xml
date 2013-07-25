@@ -3,6 +3,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:id="@+id/dialog_event_crossword"
               android:orientation="vertical"
+              android:padding="5dp"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
@@ -11,4 +12,24 @@
             android:layout_height="wrap_content"
             android:id="@+id/imageView"
             android:src="@drawable/event_crossword"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="About"
+            android:id="@+id/aboutTitleCrossword"
+            android:layout_gravity="left|center_vertical"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    Call yourself a crossword mastermind? Then try this ultimate defiance! The mysteriously obscure game comes with mind boggling clues, decipher it in a devious way! Twist your brain inside out to read the clue in the way it tells you!
+\n
+\nCome in teams of 2. Each team will be given a sheet of clues. They have to solve it in the given time. The top 4 teams will be given a board each and they will have to fill in the answers.
+The team who completes it first ,wins!"
+            android:id="@+id/aboutTextCrossword"
+            android:layout_gravity="center"/>
+
+
 </LinearLayout>

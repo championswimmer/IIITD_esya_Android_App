@@ -3,6 +3,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:id="@+id/dialog_event_overnighackthon"
               android:orientation="vertical"
+              android:padding="5dp"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
@@ -11,4 +12,22 @@
             android:layout_height="wrap_content"
             android:id="@+id/imageView"
             android:src="@drawable/event_overnighackthon"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="About"
+            android:id="@+id/aboutTitleOvernighackthon"
+            android:layout_gravity="left|center_vertical"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Esya 2013, in association with the ACM Chapter and Nokia, IIIT-Delhi presents the Overnight Hackathon, a new 16 hour application development competition aimed at fostering innovation and creativity among developers and designers. Learn and build in this confluence of programming and creative skills. We provide you the theme; you work your magic.
+\n
+\n  It’ll be a night of innovation and cutting edge development."
+            android:id="@+id/aboutTextOvernighackthon"
+            android:layout_gravity="center"/>
+
 </LinearLayout>

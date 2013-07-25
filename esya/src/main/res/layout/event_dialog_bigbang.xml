@@ -3,6 +3,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:id="@+id/dialog_event_bigbang"
               android:orientation="vertical"
+              android:padding="5dp"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
@@ -11,4 +12,24 @@
             android:layout_height="wrap_content"
             android:id="@+id/imageView"
             android:src="@drawable/event_bigbang"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="About"
+            android:id="@+id/aboutTitleBigbang"
+            android:layout_gravity="left|center_vertical"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Greetings Earthlings! Welcome to The Big Bang, a celestial quest through the stars. A brainchild of ASTRONUTS, Astronomy Club at IIITD. We present to you four baffling rounds based on practical astronomy, identification and trivia that stand between you and ultimate cash prizes worth Rs.6000.\n
+        \n1. Wolowitz’s Initiation Enigma
+        \n2. Koothrappali’s Starry Intoxication
+        \n3. Leonard’s Milky Intolerance
+        \n4. Sheldon’s Bazinga Conundrum "
+            android:id="@+id/aboutTextBigbang"
+            android:layout_gravity="center"/>
+
 </LinearLayout>

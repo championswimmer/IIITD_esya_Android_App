@@ -3,6 +3,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:id="@+id/dialog_event_xquizit"
               android:orientation="vertical"
+              android:padding="5dp"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
@@ -11,4 +12,41 @@
             android:layout_height="wrap_content"
             android:id="@+id/imageView"
             android:src="@drawable/event_xquizit"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="About"
+            android:id="@+id/aboutTitleXquizit"
+            android:layout_gravity="left|center_vertical"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="well its a quiz. To keep it simple :
+\n
+\n    “Sawaal puucha jaega, jawaab aata hai to bataiye” 
+
+\nto translate for the non-desi’s
+\n
+\n    “The question will be asked, Answer if you can” 
+\n
+\nWith this theme in mind we have made up a quiz on all things tech.
+\nThe prizes are spectacular, the questions mind boggling so all the trivia junkies are invited to test their hands at some tech trivia.
+\n
+\nAnd remember the motto of Trivialis the quiz club of IIITD :
+
+\n    ” To every question there are three answers:
+\n
+\n       The Right Answer
+\n        The Wrong Answer
+\n        The Funny Answer
+\n
+\n    And these need to be rewarded” 
+
+\nso welcome to xQuizIT 2013."
+            android:id="@+id/aboutTextXquizit"
+            android:layout_gravity="left|center_vertical"/>
+
 </LinearLayout>

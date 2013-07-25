@@ -3,6 +3,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:id="@+id/dialog_event_codeinless"
               android:orientation="vertical"
+              android:padding="5dp"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
@@ -11,4 +12,23 @@
             android:layout_height="wrap_content"
             android:id="@+id/imageView"
             android:src="@drawable/event_codeinless"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="About"
+            android:id="@+id/aboutTitleCodeinless"
+            android:layout_gravity="left|center_vertical"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time to twist, squeeze and crunch your code to achieve the minimum number of bytes and get it running. Get in the pool and remove the extra pounds of your program. Go for a sprint in this “MARATHON RACE” and get the edge. One who succeeds in compressing the code and extract the juice out of the fruit, that leading team may blow the winning flute. Be a miser, be lazy, show your skills and make others go crazy.
+\n
+\n      “Code in Less, Win out More”."
+            android:id="@+id/aboutTextCodeinless"
+            android:layout_gravity="center"/>
+
+
 </LinearLayout>

@@ -3,6 +3,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:id="@+id/dialog_event_brainfuzz"
               android:orientation="vertical"
+              android:padding="5dp"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
@@ -11,4 +12,23 @@
             android:layout_height="wrap_content"
             android:id="@+id/imageView"
             android:src="@drawable/event_brainfuzz"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="About"
+            android:id="@+id/aboutTitleBrainfuzz"
+            android:layout_gravity="left|center_vertical"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="“First, solve the problem. Then, write the code.” – John Johnson \n
+GET READY TO SCRATCH YOUR HEAD..!!! BRAINFUZZ IS BACK..!! \n
+This is a event in which you all have to fuzz your brains ( ie write algorithms ) on the questions presented and only psuedocodes are required. Get ready to solve challenging problems and showcase your talents.
+For in the end LOGIC IS MIGHT ! Aside from teams lone wolves are also allowed."
+            android:layout_gravity="center"/>
+
+
 </LinearLayout>

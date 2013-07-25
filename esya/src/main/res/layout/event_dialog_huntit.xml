@@ -3,6 +3,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:id="@+id/dialog_event_huntit"
               android:orientation="vertical"
+              android:padding="5dp"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
@@ -11,4 +12,21 @@
             android:layout_height="wrap_content"
             android:id="@+id/imageView"
             android:src="@drawable/event_huntit"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="About"
+            android:id="@+id/aboutTitleHuntit"
+            android:layout_gravity="left|center_vertical"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="We at Esya’13 offer you a chance of wearing your wittiest and craziest hat ever. This perfect blend of IT trivia and scavenger trail gets bigger and better with all new adventure. The fun spans over two days with elimination start off. Solving few brain scratching problems, participants proceed to doing a few tasks wherein speed and wit is all you need. Qualifying participants take a lucky chance to have an elaborate brainstorming IT fun, seeking some mysterious whereabouts and experiencing twists at any point in the game.
+\nBe ready to have an outing the second day looking for clues spread all over the city (and yes by that I might mean THE CITY)."
+            android:id="@+id/aboutTextHuntit"
+            android:layout_gravity="center"/>
+
 </LinearLayout>

@@ -3,6 +3,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:id="@+id/dialog_event_pool"
               android:orientation="vertical"
+              android:padding="5dp"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
@@ -11,4 +12,23 @@
             android:layout_height="wrap_content"
             android:id="@+id/imageView"
             android:src="@drawable/event_pool"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="About"
+            android:id="@+id/aboutTitlePool"
+            android:layout_gravity="left|center_vertical"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Adding to the list of fun events is pool!
+\n  Are you a Pool addict? Spend your time here! Show us your skills and brilliant moves!
+\n
+\n It would be played on an hourly basis with a tentative cost per hour or half an hour. A pair of cue sticks and set of balls will be available at the pool tables."
+            android:id="@+id/aboutTextPool"
+            android:layout_gravity="center"/>
+
 </LinearLayout>

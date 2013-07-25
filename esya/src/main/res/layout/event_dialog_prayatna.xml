@@ -3,6 +3,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:id="@+id/dialog_event_prayatna"
               android:orientation="vertical"
+              android:padding="5dp"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
@@ -11,4 +12,22 @@
             android:layout_height="wrap_content"
             android:id="@+id/imageView"
             android:src="@drawable/event_prayatna"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="About"
+            android:id="@+id/aboutTitlePrayatna"
+            android:layout_gravity="left|center_vertical"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A Journey Of Ideas From Mind To The Real Life. PRAYATNA is an event under IIIT-Delhi’s annual Techfest ESYA. It aims at solving various social problems across the nation through Technology.
+\nJust give a solution to social issues using ‘IT’ and take away the crown.
+\nPrizes worth Rs. 20,000 to be won! "
+            android:id="@+id/aboutTextPrayatna"
+            android:layout_gravity="center"/>
+
 </LinearLayout>

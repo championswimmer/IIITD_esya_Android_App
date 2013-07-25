@@ -3,6 +3,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:id="@+id/dialog_event_proconjunior"
               android:orientation="vertical"
+              android:padding="5dp"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
@@ -11,4 +12,24 @@
             android:layout_height="wrap_content"
             android:id="@+id/imageView"
             android:src="@drawable/event_proconjunior"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="About"
+            android:id="@+id/aboutTitleProconjunior"
+            android:layout_gravity="left|center_vertical"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Procon Junior, the flagship event of ESYA brings together the top programmers from schools of all over Delhi-NCR under one roof for a fierce battle, testing not only their programming ability and concepts but also their knowledge of the chosen language (one out of C, C++ or Java).
+\nYou say you are a good programmer? Prove it and we will welcome you as one of our own.
+\nIIIT-Delhi would offer bonus marks during admission to the ones who come out unscathed.
+\nThat’s not all, there are many more amazing prizes for grab!
+\nSharpen your weapon of choice and get ready to go against the best. The pride of your school rides on you, carve its name atop the rank tables and be rewarded. You will be on your own against the multiple intense rounds full of heat and vigour, which will surely ignite sparks! Get ready for the biggest battle ever!"
+            android:id="@+id/aboutTextProconjunior"
+            android:layout_gravity="center"/>
+
 </LinearLayout>
