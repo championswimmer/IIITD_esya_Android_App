@@ -15,7 +15,7 @@
  *     along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package in.ac.iiitd.esya;
+package in.ac.iiitd.esya.fragments;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
