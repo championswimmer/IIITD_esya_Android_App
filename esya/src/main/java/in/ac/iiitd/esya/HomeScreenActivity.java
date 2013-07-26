@@ -45,6 +45,8 @@ import in.ac.iiitd.esya.utils.PagerAdapter;
  */
 public class HomeScreenActivity extends FragmentActivity implements TabHost.OnTabChangeListener, ViewPager.OnPageChangeListener {
 
+
+    public static String PACKAGE_NAME;
     private TabHost mTabHost;
     private ViewPager mViewPager;
     private HashMap<String, TabInfo> mapTabInfo = new HashMap<String, HomeScreenActivity.TabInfo>();
@@ -105,6 +107,7 @@ public class HomeScreenActivity extends FragmentActivity implements TabHost.OnTa
         }
         // Intialise ViewPager
         this.intialiseViewPager();
+        PACKAGE_NAME = getApplicationContext().getPackageName();
     }
 
     /** (non-Javadoc)
@@ -189,4 +192,43 @@ public class HomeScreenActivity extends FragmentActivity implements TabHost.OnTa
         // TODO Auto-generated method stub
 
     }
+
+    //Helper Method to launch event Dialogs//
+    public void eventDialog( String eventName ) {
+        eventName = "event_dialog_" + eventName;
+        int layoutId = getResources().getIdentifier(eventName, "layout", HomeScreenActivity.PACKAGE_NAME);
+        FragmentManager fm = getSupportFragmentManager();
+        DialogFragment newFragment = new EventDialog(layoutId);
+        newFragment.show(fm, "EventDialog");
+    }
+
+    /* All the event dialog launchers */
+    public void bigbang (View v) { eventDialog("bigbang"); }
+    public void blooddonate (View v) { eventDialog("blooddonate"); }
+    public void brainfuzz (View v) { eventDialog("brainfuzz"); }
+    public void chakravyuha (View v) { eventDialog("chakravyuha"); }
+    public void codeinless (View v) { eventDialog("codeinless"); }
+    public void crossword (View v) { eventDialog("crossword"); }
+    public void foqs (View v) { eventDialog("foqs"); }
+    public void huntit (View v) { eventDialog("huntit"); }
+    public void metromix (View v) { eventDialog("metromix"); }
+    public void eventnames (View v) { eventDialog("eventnames"); }
+    public void overnighackthon (View v) { eventDialog("overnighackthon"); }
+    public void pool (View v) { eventDialog("pool"); }
+    public void prayatna (View v) { eventDialog("prayatna"); }
+    public void proconjunior (View v) { eventDialog("proconjunior"); }
+    public void procon (View v) { eventDialog("procon"); }
+    public void pwned (View v) { eventDialog("pwned"); }
+    public void rebuttal (View v) { eventDialog("rebuttal"); }
+    public void robocon (View v) { eventDialog("robocon"); }
+    public void segfault (View v) { eventDialog("segfault"); }
+    public void seminarseries (View v) { eventDialog("seminarseries"); }
+    public void sudoku (View v) { eventDialog("sudoku"); }
+    public void systemskills (View v) { eventDialog("systemskills"); }
+    public void techathlon (View v) { eventDialog("techathlon"); }
+    public void technicaltambola (View v) { eventDialog("technicaltambola"); }
+    public void toasttocode (View v) { eventDialog("toasttocode"); }
+    public void videodubbing (View v) { eventDialog("videodubbing"); }
+    public void wordtussle (View v) { eventDialog("wordtussle"); }
+    public void xquizit (View v) { eventDialog("xquizit"); }
 }

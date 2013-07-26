@@ -17,6 +17,7 @@
 
 package in.ac.iiitd.esya.tabfragments;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
 import android.support.v4.app.Fragment;
@@ -34,11 +35,6 @@ import in.ac.iiitd.esya.fragments.EventDialog;
  */
 public class ScheduleTabFragment extends Fragment {
 
-    public void eventDialog( int layoutId ) {
-        FragmentManager fm = getActivity().getSupportFragmentManager();
-        DialogFragment newFragment = new EventDialog(layoutId);
-        newFragment.show(fm, "EventDialog");
-    }
 
     /* TODO
     * Major TODO here.
@@ -58,7 +54,6 @@ public class ScheduleTabFragment extends Fragment {
             // the view hierarchy; it would just never be used.
             return null;
         }
-        eventDialog(R.layout.event_dialog_crossword);
         return inflater.inflate(R.layout.tab_fragment_schedule, container, false);
 
     }

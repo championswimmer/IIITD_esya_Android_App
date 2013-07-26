@@ -16,17 +16,505 @@
   ~     You should have received a copy of the GNU General Public License
   ~     along with this program.  If not, see <http://www.gnu.org/licenses/>.
   -->
-
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent">
-
-    <TextView
+<ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Schedule"
-            android:id="@+id/textView"
-            android:layout_gravity="center"/>
-</LinearLayout>
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="DAY 1 : 16 AUG 2013"
+                android:id="@+id/textViewday1"
+                android:padding="10dp"/>
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:text="New Text"
+                android:id="@+id/textView3"
+                android:background="#959695"/>
+
+        <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/horizontalScrollViewday1">
+
+    <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+            <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="10:00"
+                    android:id="@+id/textView"
+                    android:padding="5dp"/>
+
+            <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="11:00"
+                    android:id="@+id/textView"
+                    android:padding="5dp"/>
+
+            <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="12:00"
+                    android:id="@+id/textView"
+                    android:padding="5dp"/>
+
+            <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="13:00"
+                    android:id="@+id/textView"
+                    android:padding="5dp"/>
+
+            <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="15:00"
+                    android:id="@+id/textView"
+                    android:padding="5dp"/>
+
+            <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="15:30"
+                    android:id="@+id/textView"
+                    android:padding="5dp"/>
+
+            <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="17:00"
+                    android:id="@+id/textView"
+                    android:padding="5dp"/>
+
+            <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="19:00"
+                    android:id="@+id/textView"
+                    android:padding="5dp"/>
+
+            <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="19:30"
+                    android:id="@+id/textView"
+                    android:padding="5dp"/>
+
+            <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="20:00"
+                    android:id="@+id/textView"
+                    android:padding="5dp"/>
+        </TableRow>
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Opening\nCeremony"
+                    android:id="@+id/textView2"
+                    android:background="#3c5e63"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageViewbrainfuzz"
+                    android:src="@drawable/event_brainfuzz"
+                    android:layout_column="1"
+                    android:onClick="brainfuzz"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageViewprocon"
+                    android:src="@drawable/event_procon"
+                    android:layout_column="3"
+                    />
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageViewsystemskills"
+                    android:src="@drawable/event_systemskills"
+                    android:layout_column="6"
+                    />
+        </TableRow>
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageViewprayatna"
+                    android:src="@drawable/event_prayatna"
+                    android:layout_column="2"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageViewhuntit"
+                    android:layout_column="5"
+                    android:src="@drawable/event_huntit"/>
+        </TableRow>
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageViewseminarseries"
+                    android:layout_column="1"
+                    android:src="@drawable/event_seminarseries"/>
+        </TableRow>
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageViewpwned"
+                    android:layout_column="0"
+                    android:src="@drawable/event_pwned"/>
+        </TableRow>
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Fun \nEvents"
+                    android:id="@+id/textViewfunevents"
+                    android:layout_column="1"
+                    android:background="#43313c"
+                    />
+
+        </TableRow>
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageViewrobocon"
+                    android:layout_column="1"
+                    android:src="@drawable/event_robocon"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageViewovernighackthon"
+                    android:layout_column="9"
+                    android:src="@drawable/event_overnighackthon"
+                    />
+        </TableRow>
+
+    </TableLayout>
+</HorizontalScrollView>
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:text="New Text"
+                android:id="@+id/textView4"
+                android:background="#959695"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="DAY 2 : 17 AUG 2013"
+                android:id="@+id/textViewday2"
+                android:padding="10dp"/>
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:text="New Text"
+                android:id="@+id/textView5"
+                android:background="#959695"/>
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/horizontalScrollViewday2" >
+
+            <TableLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="09:30"
+                            android:id="@+id/textView"
+                            android:padding="5dp"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="10:00"
+                            android:id="@+id/textView"
+                            android:padding="5dp"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="11:00"
+                            android:id="@+id/textView"
+                            android:padding="5dp"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="12:00"
+                            android:id="@+id/textView"
+                            android:padding="5dp"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="13:00"
+                            android:id="@+id/textView"
+                            android:padding="5dp"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="13:30"
+                            android:id="@+id/textView"
+                            android:padding="5dp"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="14:00"
+                            android:id="@+id/textView"
+                            android:padding="5dp"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="15:00"
+                            android:id="@+id/textView"
+                            android:padding="5dp"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="15:30"
+                            android:id="@+id/textView"
+                            android:padding="5dp"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="16:00"
+                            android:id="@+id/textView"
+                            android:padding="5dp"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="17:00"
+                            android:id="@+id/textView"
+                            android:padding="5dp"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="18:00"
+                            android:id="@+id/textView"
+                            android:padding="5dp"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="18:30"
+                            android:id="@+id/textView"
+                            android:padding="5dp"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="19:30"
+                            android:id="@+id/textView"
+                            android:padding="5dp"/>
+                </TableRow>
+
+                <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageViewproconjunior"
+                            android:layout_column="0"
+                            android:src="@drawable/event_proconjunior"/>
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageViewbigbang"
+                            android:layout_column="3"
+                            android:src="@drawable/event_bigbang"/>
+                </TableRow>
+
+                <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageViewsegfault"
+                            android:layout_column="2"
+                            android:src="@drawable/event_segfault"/>
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageViewcodeinless"
+                            android:layout_column="5"
+                            android:src="@drawable/event_codeinless"/>
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageViewtoasttocode"
+                            android:layout_column="8"
+                            android:src="@drawable/event_toasttocode"/>
+                </TableRow>
+
+                <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageViewrebuttal"
+                            android:layout_column="3"
+                            android:src="@drawable/event_rebuttal"/>
+
+                </TableRow>
+
+                <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageViewpwned"
+                            android:layout_column="1"
+                            android:src="@drawable/event_pwned"
+                            />
+
+                </TableRow>
+
+                <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Fun \nEvents"
+                            android:id="@+id/textViewfunevents"
+                            android:layout_column="2"
+                            android:background="#43313c"/>
+                </TableRow>
+
+                <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@id/imageViewovernighackthon"
+                            android:src="@drawable/event_overnighackthon"/>
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageViewxquizit"
+                            android:layout_column="3"
+                            android:src="@drawable/event_xquizit"/>
+                </TableRow>
+
+                <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageViewfoqs"
+                            android:src="@drawable/event_foqs"
+                            android:layout_column="2"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Closing\nCeremony"
+                            android:id="@+id/textViewclosingceremony"
+                            android:layout_column="12"
+                            android:background="#43462d"/>
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageViewmetromix"
+                            android:layout_column="13"
+                            android:src="@drawable/event_metromix"/>
+                </TableRow>
+
+            </TableLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+</ScrollView>
