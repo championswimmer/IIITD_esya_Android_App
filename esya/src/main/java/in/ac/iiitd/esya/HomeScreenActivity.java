@@ -162,7 +162,11 @@ public class HomeScreenActivity extends FragmentActivity implements TabHost.OnTa
     public void onTabChanged(String tag) {
         //TabInfo newTab = this.mapTabInfo.get(tag);
         int pos = this.mTabHost.getCurrentTab();
-        this.mViewPager.setCurrentItem(pos);
+        try { this.mViewPager.setCurrentItem(pos);
+        } catch (Exception e) {
+            //Do nothing if cannot get pos.
+        }
+
     }
 
     /* (non-Javadoc)
