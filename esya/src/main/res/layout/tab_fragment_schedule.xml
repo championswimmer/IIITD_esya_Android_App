@@ -149,10 +149,24 @@
             <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:id="@+id/imageViewbrainfuzz"
+                    android:src="@drawable/event_brainfuzz"
+                    android:onClick="brainfuzz"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:id="@+id/imageViewprocon"
                     android:src="@drawable/event_procon"
                     android:layout_column="3"
-                    />
+                    android:onClick="procon"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageViewprocon"
+                    android:src="@drawable/event_procon"
+                    android:onClick="procon"/>
 
             <ImageView
                     android:layout_width="wrap_content"
@@ -160,7 +174,7 @@
                     android:id="@+id/imageViewsystemskills"
                     android:src="@drawable/event_systemskills"
                     android:layout_column="6"
-                    />
+                    android:onClick="systemskills"/>
         </TableRow>
 
         <TableRow
@@ -172,14 +186,30 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/imageViewprayatna"
                     android:src="@drawable/event_prayatna"
-                    android:layout_column="2"/>
+                    android:layout_column="2"
+                    android:onClick="prayatna"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageViewprayatna"
+                    android:src="@drawable/event_prayatna"
+                    android:onClick="prayatna"/>
 
             <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/imageViewhuntit"
                     android:layout_column="5"
-                    android:src="@drawable/event_huntit"/>
+                    android:src="@drawable/event_huntit"
+                    android:onClick="huntit"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageViewhuntit"
+                    android:src="@drawable/event_huntit"
+                    android:onClick="huntit"/>
         </TableRow>
 
         <TableRow
@@ -191,7 +221,15 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/imageViewseminarseries"
                     android:layout_column="1"
-                    android:src="@drawable/event_seminarseries"/>
+                    android:src="@drawable/event_seminarseries"
+                    android:onClick="seminarseries"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageViewseminarseries"
+                    android:src="@drawable/event_seminarseries"
+                    android:onClick="seminarseries"/>
         </TableRow>
 
         <TableRow
@@ -203,7 +241,50 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/imageViewpwned"
                     android:layout_column="0"
-                    android:src="@drawable/event_pwned"/>
+                    android:src="@drawable/event_pwned"
+                    android:onClick="pwned"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageViewpwned"
+                    android:src="@drawable/event_pwned"
+                    android:onClick="pwned"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageViewpwned"
+                    android:src="@drawable/event_pwned"
+                    android:onClick="pwned"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageViewpwned"
+                    android:src="@drawable/event_pwned"
+                    android:onClick="pwned"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageViewpwned"
+                    android:src="@drawable/event_pwned"
+                    android:onClick="pwned"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageViewpwned"
+                    android:src="@drawable/event_pwned"
+                    android:onClick="pwned"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageViewpwned"
+                    android:src="@drawable/event_pwned"
+                    android:onClick="pwned"/>
         </TableRow>
 
         <TableRow
@@ -220,6 +301,51 @@
                     android:background="#43313c"
                     />
 
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Fun \nEvents"
+                    android:id="@+id/textViewfunevents"
+                    android:background="#43313c"
+                    />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Fun \nEvents"
+                    android:id="@+id/textViewfunevents"
+                    android:background="#43313c"
+                    />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Fun \nEvents"
+                    android:id="@+id/textViewfunevents"
+                    android:background="#43313c"
+                    />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Fun \nEvents"
+                    android:id="@+id/textViewfunevents"
+                    android:background="#43313c"
+                    />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Fun \nEvents"
+                    android:id="@+id/textViewfunevents"
+                    android:background="#43313c"
+                    />
+
         </TableRow>
 
         <TableRow
@@ -231,7 +357,50 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/imageViewrobocon"
                     android:layout_column="1"
-                    android:src="@drawable/event_robocon"/>
+                    android:src="@drawable/event_robocon"
+                    android:onClick="robocon"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageViewrobocon"
+                    android:src="@drawable/event_robocon"
+                    android:onClick="robocon"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageViewrobocon"
+                    android:src="@drawable/event_robocon"
+                    android:onClick="robocon"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageViewrobocon"
+                    android:src="@drawable/event_robocon"
+                    android:onClick="robocon"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageViewrobocon"
+                    android:src="@drawable/event_robocon"
+                    android:onClick="robocon"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageViewrobocon"
+                    android:src="@drawable/event_robocon"
+                    android:onClick="robocon"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageViewrobocon"
+                    android:src="@drawable/event_robocon"
+                    android:onClick="robocon"/>
 
             <ImageView
                     android:layout_width="wrap_content"
@@ -239,7 +408,7 @@
                     android:id="@+id/imageViewovernighackthon"
                     android:layout_column="9"
                     android:src="@drawable/event_overnighackthon"
-                    />
+                    android:onClick="overnighackthon"/>
         </TableRow>
 
     </TableLayout>
@@ -390,14 +559,44 @@
                             android:layout_height="wrap_content"
                             android:id="@+id/imageViewproconjunior"
                             android:layout_column="0"
-                            android:src="@drawable/event_proconjunior"/>
+                            android:src="@drawable/event_proconjunior"
+                            android:onClick="proconjunior"/>
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageViewproconjunior"
+                            android:src="@drawable/event_proconjunior"
+                            android:onClick="proconjunior"/>
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageViewproconjunior"
+                            android:src="@drawable/event_proconjunior"
+                            android:onClick="proconjunior"/>
 
                     <ImageView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:id="@+id/imageViewbigbang"
                             android:layout_column="3"
-                            android:src="@drawable/event_bigbang"/>
+                            android:src="@drawable/event_bigbang"
+                            android:onClick="bigbang"/>
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageViewbigbang"
+                            android:src="@drawable/event_bigbang"
+                            android:onClick="bigbang"/>
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageViewbigbang"
+                            android:src="@drawable/event_bigbang"
+                            android:onClick="bigbang"/>
                 </TableRow>
 
                 <TableRow
@@ -409,21 +608,52 @@
                             android:layout_height="wrap_content"
                             android:id="@+id/imageViewsegfault"
                             android:layout_column="2"
-                            android:src="@drawable/event_segfault"/>
+                            android:src="@drawable/event_segfault"
+                            android:onClick="segfault"/>
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageViewsegfault"
+                            android:src="@drawable/event_segfault"
+                            android:onClick="segfault"/>
 
                     <ImageView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:id="@+id/imageViewcodeinless"
                             android:layout_column="5"
-                            android:src="@drawable/event_codeinless"/>
+                            android:src="@drawable/event_codeinless"
+                            android:onClick="codeinless"/>
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageViewcodeinless"
+                            android:src="@drawable/event_codeinless"
+                            android:onClick="codeinless"/>
 
                     <ImageView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:id="@+id/imageViewtoasttocode"
                             android:layout_column="8"
-                            android:src="@drawable/event_toasttocode"/>
+                            android:src="@drawable/event_toasttocode"
+                            android:onClick="toasttocode"/>
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageViewtoasttocode"
+                            android:src="@drawable/event_toasttocode"
+                            android:onClick="toasttocode"/>
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageViewtoasttocode"
+                            android:src="@drawable/event_toasttocode"
+                            android:onClick="toasttocode"/>
                 </TableRow>
 
                 <TableRow
@@ -435,7 +665,43 @@
                             android:layout_height="wrap_content"
                             android:id="@+id/imageViewrebuttal"
                             android:layout_column="3"
-                            android:src="@drawable/event_rebuttal"/>
+                            android:src="@drawable/event_rebuttal"
+                            android:onClick="rebuttal"/>
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageViewrebuttal"
+                            android:src="@drawable/event_rebuttal"
+                            android:onClick="rebuttal"/>
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageViewrebuttal"
+                            android:src="@drawable/event_rebuttal"
+                            android:onClick="rebuttal"/>
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageViewrebuttal"
+                            android:src="@drawable/event_rebuttal"
+                            android:onClick="rebuttal"/>
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageViewrebuttal"
+                            android:src="@drawable/event_rebuttal"
+                            android:onClick="rebuttal"/>
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageViewrebuttal"
+                            android:src="@drawable/event_rebuttal"
+                            android:onClick="rebuttal"/>
 
                 </TableRow>
 
@@ -449,7 +715,77 @@
                             android:id="@+id/imageViewpwned"
                             android:layout_column="1"
                             android:src="@drawable/event_pwned"
-                            />
+                            android:onClick="pwned"/>
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageViewpwned"
+                            android:src="@drawable/event_pwned"
+                            android:onClick="pwned"/>
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageViewpwned"
+                            android:src="@drawable/event_pwned"
+                            android:onClick="pwned"/>
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageViewpwned"
+                            android:src="@drawable/event_pwned"
+                            android:onClick="pwned"/>
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageViewpwned"
+                            android:src="@drawable/event_pwned"
+                            android:onClick="pwned"/>
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageViewpwned"
+                            android:src="@drawable/event_pwned"
+                            android:onClick="pwned"/>
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageViewpwned"
+                            android:src="@drawable/event_pwned"
+                            android:onClick="pwned"/>
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageViewpwned"
+                            android:src="@drawable/event_pwned"
+                            android:onClick="pwned"/>
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageViewpwned"
+                            android:src="@drawable/event_pwned"
+                            android:onClick="pwned"/>
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageViewpwned"
+                            android:src="@drawable/event_pwned"
+                            android:onClick="pwned"/>
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageViewpwned"
+                            android:src="@drawable/event_pwned"
+                            android:onClick="pwned"/>
 
                 </TableRow>
 
@@ -465,6 +801,78 @@
                             android:id="@+id/textViewfunevents"
                             android:layout_column="2"
                             android:background="#43313c"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Fun \nEvents"
+                            android:id="@+id/textViewfunevents"
+                            android:background="#43313c"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Fun \nEvents"
+                            android:id="@+id/textViewfunevents"
+                            android:background="#43313c"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Fun \nEvents"
+                            android:id="@+id/textViewfunevents"
+                            android:background="#43313c"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Fun \nEvents"
+                            android:id="@+id/textViewfunevents"
+                            android:background="#43313c"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Fun \nEvents"
+                            android:id="@+id/textViewfunevents"
+                            android:background="#43313c"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Fun \nEvents"
+                            android:id="@+id/textViewfunevents"
+                            android:background="#43313c"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Fun \nEvents"
+                            android:id="@+id/textViewfunevents"
+                            android:background="#43313c"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Fun \nEvents"
+                            android:id="@+id/textViewfunevents"
+                            android:background="#43313c"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Fun \nEvents"
+                            android:id="@+id/textViewfunevents"
+                            android:background="#43313c"/>
                 </TableRow>
 
                 <TableRow
@@ -475,14 +883,72 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:id="@id/imageViewovernighackthon"
-                            android:src="@drawable/event_overnighackthon"/>
+                            android:src="@drawable/event_overnighackthon"
+                            android:onClick="overnighackthon"/>
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@id/imageViewovernighackthon"
+                            android:src="@drawable/event_overnighackthon"
+                            android:onClick="overnighackthon"/>
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@id/imageViewovernighackthon"
+                            android:src="@drawable/event_overnighackthon"
+                            android:onClick="overnighackthon"/>
 
                     <ImageView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:id="@+id/imageViewxquizit"
                             android:layout_column="3"
-                            android:src="@drawable/event_xquizit"/>
+                            android:src="@drawable/event_xquizit"
+                            android:onClick="xquizit"/>
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageViewxquizit"
+                            android:src="@drawable/event_xquizit"
+                            android:onClick="xquizit"/>
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageViewxquizit"
+                            android:src="@drawable/event_xquizit"
+                            android:onClick="xquizit"/>
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageViewxquizit"
+                            android:src="@drawable/event_xquizit"
+                            android:onClick="xquizit"/>
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageViewxquizit"
+                            android:src="@drawable/event_xquizit"
+                            android:onClick="xquizit"/>
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageViewxquizit"
+                            android:src="@drawable/event_xquizit"
+                            android:onClick="xquizit"/>
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageViewxquizit"
+                            android:src="@drawable/event_xquizit"
+                            android:onClick="xquizit"/>
                 </TableRow>
 
                 <TableRow
@@ -494,7 +960,29 @@
                             android:layout_height="wrap_content"
                             android:id="@+id/imageViewfoqs"
                             android:src="@drawable/event_foqs"
-                            android:layout_column="2"/>
+                            android:layout_column="2"
+                            android:onClick="foqs"/>
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageViewfoqs"
+                            android:src="@drawable/event_foqs"
+                            android:onClick="foqs"/>
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageViewfoqs"
+                            android:src="@drawable/event_foqs"
+                            android:onClick="foqs"/>
+
+                    <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageViewfoqs"
+                            android:src="@drawable/event_foqs"
+                            android:onClick="foqs"/>
 
                     <TextView
                             android:layout_width="wrap_content"
@@ -510,7 +998,8 @@
                             android:layout_height="wrap_content"
                             android:id="@+id/imageViewmetromix"
                             android:layout_column="13"
-                            android:src="@drawable/event_metromix"/>
+                            android:src="@drawable/event_metromix"
+                            android:onClick="metromix"/>
                 </TableRow>
 
             </TableLayout>
