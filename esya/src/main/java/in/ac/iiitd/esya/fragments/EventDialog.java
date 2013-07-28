@@ -41,9 +41,16 @@ public class EventDialog extends DialogFragment {
 
         // Inflate and set the layout for the dialog
         // Pass null as the parent view because its going in the dialog layout
-        builder.setView(inflater.inflate(mLayoutId, null))
-        ;
+
+        builder.setView(inflater.inflate(mLayoutId, null));
+        setRetainInstance(true);
         // Create the AlertDialog object and return it
         return builder.create();
+    }
+    @Override
+    public void onDestroyView() {
+        if (getDialog() != null && getRetainInstance())
+            getDialog().setOnDismissListener(null);
+        super.onDestroyView();
     }
 }
