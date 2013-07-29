@@ -22,17 +22,13 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
 
-import in.ac.iiitd.esya.HomeScreenActivity;
 import in.ac.iiitd.esya.R;
 
 /**
  * Created by championswimmer on 25/7/13.
  */
 public class OngoingTabFragment extends Fragment {
-    public String events[];
 
     /* TODO
     * Major TODO here.
@@ -53,7 +49,11 @@ public class OngoingTabFragment extends Fragment {
             return null;
         }
 
-        events = getActivity().getResources().getStringArray(R.array.events);
+
+
+
         return inflater.inflate(R.layout.tab_fragment_ongoing, container, false);
     }
+
+
 }

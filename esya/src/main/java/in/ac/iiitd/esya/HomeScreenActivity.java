@@ -19,6 +19,7 @@
 package in.ac.iiitd.esya;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
 import android.support.v4.app.Fragment;
@@ -26,11 +27,11 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.view.ViewPager;
 import android.view.View;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
 import android.widget.TabHost;
 import android.widget.TabHost.TabContentFactory;
+import android.widget.TextView;
 
+import java.util.Calendar;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Vector;
@@ -48,6 +49,9 @@ import in.ac.iiitd.esya.utils.PagerAdapter;
  */
 public class HomeScreenActivity extends FragmentActivity implements TabHost.OnTabChangeListener, ViewPager.OnPageChangeListener {
 
+    public String events[], eventText;
+    public int event_start_day[], event_start_hour[], event_start_minute[];
+    public int totalEvents;
 
     public static String PACKAGE_NAME;
     private TabHost mTabHost;
@@ -112,6 +116,8 @@ public class HomeScreenActivity extends FragmentActivity implements TabHost.OnTa
         this.intialiseViewPager();
         PACKAGE_NAME = getApplicationContext().getPackageName();
 
+
+
     }
 
     /** (non-Javadoc)
@@ -174,6 +180,13 @@ public class HomeScreenActivity extends FragmentActivity implements TabHost.OnTa
             //Do nothing if cannot get pos.
         }
 
+        try {
+            getEventDetails();
+            checkIfStarted();
+        } catch (Exception e) {
+            //Exit gracefully if cannot update event status
+        }
+
     }
 
     /* (non-Javadoc)
@@ -223,7 +236,6 @@ public class HomeScreenActivity extends FragmentActivity implements TabHost.OnTa
     public void foqs (View v) { eventDialog("foqs"); }
     public void huntit (View v) { eventDialog("huntit"); }
     public void metromix (View v) { eventDialog("metromix"); }
-    public void eventnames (View v) { eventDialog("eventnames"); }
     public void overnighackthon (View v) { eventDialog("overnighackthon"); }
     public void pool (View v) { eventDialog("pool"); }
     public void prayatna (View v) { eventDialog("prayatna"); }
@@ -242,4 +254,39 @@ public class HomeScreenActivity extends FragmentActivity implements TabHost.OnTa
     public void videodubbing (View v) { eventDialog("videodubbing"); }
     public void wordtussle (View v) { eventDialog("wordtussle"); }
     public void xquizit (View v) { eventDialog("xquizit"); }
+
+    public void getEventDetails () {
+        events = getResources().getStringArray(R.array.events);
+        totalEvents = events.length;
+        //Log.d ("ARNAV", "length is " + totalEvents);
+        event_start_day = getResources().getIntArray(R.array.event_start_day);
+        event_start_hour = getResources().getIntArray(R.array.event_start_hour);
+        event_start_minute = getResources().getIntArray(R.array.event_start_minute);
+    }
+
+    public void checkIfStarted () {
+        int i;
+        long timeNow = Calendar.getInstance().getTimeInMillis();
+        long timeEvent;
+        Calendar eventTime = Calendar.getInstance();
+        for ( i = 0; i < totalEvents; i++ ) {
+            eventText = "ongoing" + events[i] + "text";
+            eventTime.set(2013, 7, event_start_day[i], event_start_hour[i], event_start_minute[i]);
+            timeEvent = eventTime.getTimeInMillis();
+            //Log.d("ARNAV", eventText);
+            int viewid = getResources().getIdentifier(eventText, "id", getPackageName());
+            //Log.d("ARNAV", eventText + " " + viewid);
+            TextView ongoingTextView = (TextView)this. findViewById(viewid);
+            if ( timeNow > timeEvent) {
+                ongoingTextView.setText("Ongoing");
+                ongoingTextView.setTextColor(Color.YELLOW);
+            }
+            else {
+                ongoingTextView.setText("Not Started");
+                ongoingTextView.setTextColor(Color.GREEN);
+            }
+
+        }
+    }
+
 }

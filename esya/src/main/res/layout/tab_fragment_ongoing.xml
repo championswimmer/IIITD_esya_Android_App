@@ -31,7 +31,8 @@
             android:src="@drawable/event_bigbang"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="15dp"
-            android:padding="5dp"/>
+            android:padding="5dp"
+            android:onClick="bigbang"/>
 
     <TextView
             android:layout_width="wrap_content"
@@ -53,7 +54,8 @@
             android:src="@drawable/event_blooddonate"
             android:layout_below="@+id/ongoingbigbang"
             android:layout_marginLeft="15dp"
-            android:padding="5dp"/>
+            android:padding="5dp"
+            android:onClick="blooddonate"/>
 
     <TextView
             android:layout_width="wrap_content"
@@ -75,7 +77,8 @@
             android:src="@drawable/event_brainfuzz"
             android:layout_below="@+id/ongoingblooddonate"
             android:layout_marginLeft="15dp"
-            android:padding="5dp"/>
+            android:padding="5dp"
+            android:onClick="brainfuzz"/>
 
     <TextView
             android:layout_width="wrap_content"
@@ -97,7 +100,8 @@
             android:src="@drawable/event_chakravyuha"
             android:layout_below="@+id/ongoingbrainfuzz"
             android:layout_marginLeft="15dp"
-            android:padding="5dp"/>
+            android:padding="5dp"
+            android:onClick="chakravyuha"/>
 
     <TextView
             android:layout_width="wrap_content"
@@ -119,7 +123,8 @@
             android:src="@drawable/event_codeinless"
             android:layout_below="@+id/ongoingchakravyuha"
             android:layout_marginLeft="15dp"
-            android:padding="5dp"/>
+            android:padding="5dp"
+            android:onClick="codeinless"/>
 
     <TextView
             android:layout_width="wrap_content"
@@ -141,7 +146,8 @@
             android:src="@drawable/event_crossword"
             android:layout_below="@+id/ongoingcodeinless"
             android:layout_marginLeft="15dp"
-            android:padding="5dp"/>
+            android:padding="5dp"
+            android:onClick="crossword"/>
 
     <TextView
             android:layout_width="wrap_content"
@@ -163,7 +169,8 @@
             android:src="@drawable/event_foqs"
             android:layout_below="@+id/ongoingcrossword"
             android:layout_marginLeft="15dp"
-            android:padding="5dp"/>
+            android:padding="5dp"
+            android:onClick="foqs"/>
 
     <TextView
             android:layout_width="wrap_content"
@@ -185,7 +192,8 @@
             android:src="@drawable/event_huntit"
             android:layout_below="@+id/ongoingfoqs"
             android:layout_marginLeft="15dp"
-            android:padding="5dp"/>
+            android:padding="5dp"
+            android:onClick="huntit"/>
 
     <TextView
             android:layout_width="wrap_content"
@@ -207,7 +215,8 @@
             android:src="@drawable/event_metromix"
             android:layout_below="@+id/ongoinghuntit"
             android:layout_marginLeft="15dp"
-            android:padding="5dp"/>
+            android:padding="5dp"
+            android:onClick="metromix"/>
 
     <TextView
             android:layout_width="wrap_content"
@@ -229,7 +238,8 @@
             android:src="@drawable/event_overnighackthon"
             android:layout_below="@+id/ongoingmetromix"
             android:layout_marginLeft="15dp"
-            android:padding="5dp"/>
+            android:padding="5dp"
+            android:onClick="overnighackthon"/>
 
     <TextView
             android:layout_width="wrap_content"
@@ -251,7 +261,8 @@
             android:src="@drawable/event_pool"
             android:layout_below="@+id/ongoingovernighackthon"
             android:layout_marginLeft="15dp"
-            android:padding="5dp"/>
+            android:padding="5dp"
+            android:onClick="pool"/>
 
     <TextView
             android:layout_width="wrap_content"
@@ -273,7 +284,8 @@
             android:src="@drawable/event_prayatna"
             android:layout_below="@+id/ongoingpool"
             android:layout_marginLeft="15dp"
-            android:padding="5dp"/>
+            android:padding="5dp"
+            android:onClick="prayatna"/>
 
     <TextView
             android:layout_width="wrap_content"
@@ -295,7 +307,8 @@
             android:src="@drawable/event_proconjunior"
             android:layout_below="@+id/ongoingprayatna"
             android:layout_marginLeft="15dp"
-            android:padding="5dp"/>
+            android:padding="5dp"
+            android:onClick="proconjunior"/>
 
     <TextView
             android:layout_width="wrap_content"
@@ -317,7 +330,8 @@
             android:src="@drawable/event_procon"
             android:layout_below="@+id/ongoingproconjunior"
             android:layout_marginLeft="15dp"
-            android:padding="5dp"/>
+            android:padding="5dp"
+            android:onClick="procon"/>
 
     <TextView
             android:layout_width="wrap_content"
@@ -339,7 +353,8 @@
             android:src="@drawable/event_pwned"
             android:layout_below="@+id/ongoingprocon"
             android:layout_marginLeft="15dp"
-            android:padding="5dp"/>
+            android:padding="5dp"
+            android:onClick="pwned"/>
 
     <TextView
             android:layout_width="wrap_content"
@@ -359,9 +374,10 @@
             android:id="@+id/ongoingrebuttal"
             android:layout_gravity="center_horizontal"
             android:src="@drawable/event_rebuttal"
+            android:padding="5dp"
             android:layout_below="@+id/ongoingpwned"
-            android:layout_marginLeft="15dp"
-            android:padding="5dp"/>
+            android:layout_alignLeft="@+id/ongoingrobocon"
+            android:onClick="rebuttal"/>
 
     <TextView
             android:layout_width="wrap_content"
@@ -383,7 +399,8 @@
             android:src="@drawable/event_robocon"
             android:layout_below="@+id/ongoingrebuttal"
             android:layout_marginLeft="15dp"
-            android:padding="5dp"/>
+            android:padding="5dp"
+            android:onClick="robocon"/>
 
     <TextView
             android:layout_width="wrap_content"
@@ -405,7 +422,8 @@
             android:src="@drawable/event_segfault"
             android:layout_below="@+id/ongoingrobocon"
             android:layout_marginLeft="15dp"
-            android:padding="5dp"/>
+            android:padding="5dp"
+            android:onClick="segfault"/>
 
     <TextView
             android:layout_width="wrap_content"
@@ -427,7 +445,8 @@
             android:src="@drawable/event_seminarseries"
             android:layout_below="@+id/ongoingsegfault"
             android:layout_marginLeft="15dp"
-            android:padding="5dp"/>
+            android:padding="5dp"
+            android:onClick="seminarseries"/>
 
     <TextView
             android:layout_width="wrap_content"
@@ -449,7 +468,8 @@
             android:src="@drawable/event_sudoku"
             android:layout_below="@+id/ongoingseminarseries"
             android:layout_marginLeft="15dp"
-            android:padding="5dp"/>
+            android:padding="5dp"
+            android:onClick="sudoku"/>
 
     <TextView
             android:layout_width="wrap_content"
@@ -471,7 +491,8 @@
             android:src="@drawable/event_systemskills"
             android:layout_below="@+id/ongoingsudoku"
             android:layout_marginLeft="15dp"
-            android:padding="5dp"/>
+            android:padding="5dp"
+            android:onClick="systemskills"/>
 
     <TextView
             android:layout_width="wrap_content"
@@ -493,7 +514,8 @@
             android:src="@drawable/event_techathlon"
             android:layout_below="@+id/ongoingsystemskills"
             android:layout_marginLeft="15dp"
-            android:padding="5dp"/>
+            android:padding="5dp"
+            android:onClick="techathlon"/>
 
     <TextView
             android:layout_width="wrap_content"
@@ -515,7 +537,8 @@
             android:src="@drawable/event_technicaltambola"
             android:layout_below="@+id/ongoingtechathlon"
             android:layout_marginLeft="15dp"
-            android:padding="5dp"/>
+            android:padding="5dp"
+            android:onClick="technicaltambola"/>
 
     <TextView
             android:layout_width="wrap_content"
@@ -537,7 +560,8 @@
             android:src="@drawable/event_toasttocode"
             android:layout_below="@+id/ongoingtechnicaltambola"
             android:layout_marginLeft="15dp"
-            android:padding="5dp"/>
+            android:padding="5dp"
+            android:onClick="toasttocode"/>
 
     <TextView
             android:layout_width="wrap_content"
@@ -559,7 +583,8 @@
             android:src="@drawable/event_videodubbing"
             android:layout_below="@+id/ongoingtoasttocode"
             android:layout_marginLeft="15dp"
-            android:padding="5dp"/>
+            android:padding="5dp"
+            android:onClick="videodubbing"/>
 
     <TextView
             android:layout_width="wrap_content"
@@ -581,7 +606,8 @@
             android:src="@drawable/event_wordtussle"
             android:layout_below="@+id/ongoingvideodubbing"
             android:layout_marginLeft="15dp"
-            android:padding="5dp"/>
+            android:padding="5dp"
+            android:onClick="wordtussle"/>
 
     <TextView
             android:layout_width="wrap_content"
@@ -603,7 +629,8 @@
             android:src="@drawable/event_xquizit"
             android:layout_below="@+id/ongoingwordtussle"
             android:layout_marginLeft="15dp"
-            android:padding="5dp"/>
+            android:padding="5dp"
+            android:onClick="xquizit"/>
 
     <TextView
             android:layout_width="wrap_content"

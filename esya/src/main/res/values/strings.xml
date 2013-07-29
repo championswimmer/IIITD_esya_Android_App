@@ -112,4 +112,181 @@
         <item>@drawable/event_xquizit</item>
     </array>
 
+    <integer-array name="event_start_day">
+        <item>17</item> <!-- bigbang -->
+        <item>00</item> <!-- blooddonate -->
+        <item>16</item> <!-- brainfuzz -->
+        <item>00</item> <!-- chakravyuha -->
+        <item>17</item> <!-- codeinless -->
+        <item>00</item> <!-- crossword -->
+        <item>17</item> <!-- foqs -->
+        <item>16</item> <!-- huntit -->
+        <item>17</item> <!-- metromix -->
+        <item>16</item> <!-- overnighackthon -->
+        <item>00</item> <!-- pool -->
+        <item>16</item> <!-- prayatna -->
+        <item>17</item> <!-- proconjunior -->
+        <item>16</item> <!-- procon -->
+        <item>16</item> <!-- pwned -->
+        <item>17</item> <!-- rebuttal -->
+        <item>16</item> <!-- robocon -->
+        <item>17</item> <!-- segfault -->
+        <item>16</item> <!-- seminarseries -->
+        <item>00</item> <!-- sudoku -->
+        <item>16</item> <!-- systemskills -->
+        <item>00</item> <!-- techathlon -->
+        <item>00</item> <!-- technicaltambola -->
+        <item>17</item> <!-- toasttocode -->
+        <item>00</item> <!-- videodubbing -->
+        <item>00</item> <!-- wordtussle -->
+        <item>17</item> <!-- xquizit -->
+    </integer-array>
+    <integer-array name="event_start_hour">
+        <item>12</item> <!-- bigbang -->
+        <item>00</item> <!-- blooddonate -->
+        <item>11</item> <!-- brainfuzz -->
+        <item>00</item> <!-- chakravyuha -->
+        <item>13</item> <!-- codeinless -->
+        <item>00</item> <!-- crossword -->
+        <item>11</item> <!-- foqs -->
+        <item>15</item> <!-- huntit -->
+        <item>19</item> <!-- metromix -->
+        <item>20</item> <!-- overnighackthon -->
+        <item>00</item> <!-- pool -->
+        <item>12</item> <!-- prayatna -->
+        <item>9</item> <!-- proconjunior -->
+        <item>13</item> <!-- procon -->
+        <item>10</item> <!-- pwned -->
+        <item>12</item> <!-- rebuttal -->
+        <item>11</item> <!-- robocon -->
+        <item>11</item> <!-- segfault -->
+        <item>11</item> <!-- seminarseries -->
+        <item>00</item> <!-- sudoku -->
+        <item>17</item> <!-- systemskills -->
+        <item>00</item> <!-- techathlon -->
+        <item>00</item> <!-- technicaltambola -->
+        <item>15</item> <!-- toasttocode -->
+        <item>00</item> <!-- videodubbing -->
+        <item>00</item> <!-- wordtussle -->
+        <item>12</item> <!-- xquizit -->
+    </integer-array>
+    <integer-array name="event_start_minute">
+        <item>00</item> <!-- bigbang -->
+        <item>00</item> <!-- blooddonate -->
+        <item>00</item> <!-- brainfuzz -->
+        <item>00</item> <!-- chakravyuha -->
+        <item>00</item> <!-- codeinless -->
+        <item>00</item> <!-- crossword -->
+        <item>00</item> <!-- foqs -->
+        <item>30</item> <!-- huntit -->
+        <item>30</item> <!-- metromix -->
+        <item>00</item> <!-- overnighackthon -->
+        <item>00</item> <!-- pool -->
+        <item>00</item> <!-- prayatna -->
+        <item>30</item> <!-- proconjunior -->
+        <item>00</item> <!-- procon -->
+        <item>00</item> <!-- pwned -->
+        <item>00</item> <!-- rebuttal -->
+        <item>00</item> <!-- robocon -->
+        <item>00</item> <!-- segfault -->
+        <item>00</item> <!-- seminarseries -->
+        <item>00</item> <!-- sudoku -->
+        <item>00</item> <!-- systemskills -->
+        <item>00</item> <!-- techathlon -->
+        <item>00</item> <!-- technicaltambola -->
+        <item>30</item> <!-- toasttocode -->
+        <item>00</item> <!-- videodubbing -->
+        <item>00</item> <!-- wordtussle -->
+        <item>00</item> <!-- xquizit -->
+    </integer-array>
+
+    <integer-array name="event_end_day">
+        <item>00</item> <!-- bigbang -->
+        <item>00</item> <!-- blooddonate -->
+        <item>00</item> <!-- brainfuzz -->
+        <item>00</item> <!-- chakravyuha -->
+        <item>00</item> <!-- codeinless -->
+        <item>00</item> <!-- crossword -->
+        <item>00</item> <!-- foqs -->
+        <item>00</item> <!-- huntit -->
+        <item>00</item> <!-- metromix -->
+        <item>00</item> <!-- overnighackthon -->
+        <item>00</item> <!-- pool -->
+        <item>00</item> <!-- prayatna -->
+        <item>00</item> <!-- proconjunior -->
+        <item>00</item> <!-- procon -->
+        <item>00</item> <!-- pwned -->
+        <item>00</item> <!-- rebuttal -->
+        <item>00</item> <!-- robocon -->
+        <item>00</item> <!-- segfault -->
+        <item>00</item> <!-- seminarseries -->
+        <item>00</item> <!-- sudoku -->
+        <item>00</item> <!-- systemskills -->
+        <item>00</item> <!-- techathlon -->
+        <item>00</item> <!-- technicaltambola -->
+        <item>00</item> <!-- toasttocode -->
+        <item>00</item> <!-- videodubbing -->
+        <item>00</item> <!-- wordtussle -->
+        <item>00</item> <!-- xquizit -->
+    </integer-array>
+    <integer-array name="event_end_hour">
+        <item>00</item> <!-- bigbang -->
+        <item>00</item> <!-- blooddonate -->
+        <item>00</item> <!-- brainfuzz -->
+        <item>00</item> <!-- chakravyuha -->
+        <item>00</item> <!-- codeinless -->
+        <item>00</item> <!-- crossword -->
+        <item>00</item> <!-- foqs -->
+        <item>00</item> <!-- huntit -->
+        <item>00</item> <!-- metromix -->
+        <item>00</item> <!-- overnighackthon -->
+        <item>00</item> <!-- pool -->
+        <item>00</item> <!-- prayatna -->
+        <item>00</item> <!-- proconjunior -->
+        <item>00</item> <!-- procon -->
+        <item>00</item> <!-- pwned -->
+        <item>00</item> <!-- rebuttal -->
+        <item>00</item> <!-- robocon -->
+        <item>00</item> <!-- segfault -->
+        <item>00</item> <!-- seminarseries -->
+        <item>00</item> <!-- sudoku -->
+        <item>00</item> <!-- systemskills -->
+        <item>00</item> <!-- techathlon -->
+        <item>00</item> <!-- technicaltambola -->
+        <item>00</item> <!-- toasttocode -->
+        <item>00</item> <!-- videodubbing -->
+        <item>00</item> <!-- wordtussle -->
+        <item>00</item> <!-- xquizit -->
+    </integer-array>
+    <integer-array name="event_end_minute">
+        <item>00</item> <!-- bigbang -->
+        <item>00</item> <!-- blooddonate -->
+        <item>00</item> <!-- brainfuzz -->
+        <item>00</item> <!-- chakravyuha -->
+        <item>00</item> <!-- codeinless -->
+        <item>00</item> <!-- crossword -->
+        <item>00</item> <!-- foqs -->
+        <item>00</item> <!-- huntit -->
+        <item>00</item> <!-- metromix -->
+        <item>00</item> <!-- overnighackthon -->
+        <item>00</item> <!-- pool -->
+        <item>00</item> <!-- prayatna -->
+        <item>00</item> <!-- proconjunior -->
+        <item>00</item> <!-- procon -->
+        <item>00</item> <!-- pwned -->
+        <item>00</item> <!-- rebuttal -->
+        <item>00</item> <!-- robocon -->
+        <item>00</item> <!-- segfault -->
+        <item>00</item> <!-- seminarseries -->
+        <item>00</item> <!-- sudoku -->
+        <item>00</item> <!-- systemskills -->
+        <item>00</item> <!-- techathlon -->
+        <item>00</item> <!-- technicaltambola -->
+        <item>00</item> <!-- toasttocode -->
+        <item>00</item> <!-- videodubbing -->
+        <item>00</item> <!-- wordtussle -->
+        <item>00</item> <!-- xquizit -->
+    </integer-array>
+
+
 </resources>
