@@ -22,4 +22,94 @@
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
 
+    <string-array name="events" >
+        <item>bigbang</item>
+        <item>blooddonate</item>
+        <item>brainfuzz</item>
+        <item>chakravyuha</item>
+        <item>codeinless</item>
+        <item>crossword</item>
+        <item>foqs</item>
+        <item>huntit</item>
+        <item>metromix</item>
+        <item>overnighackthon</item>
+        <item>pool</item>
+        <item>prayatna</item>
+        <item>proconjunior</item>
+        <item>procon</item>
+        <item>pwned</item>
+        <item>rebuttal</item>
+        <item>robocon</item>
+        <item>segfault</item>
+        <item>seminarseries</item>
+        <item>sudoku</item>
+        <item>systemskills</item>
+        <item>techathlon</item>
+        <item>technicaltambola</item>
+        <item>toasttocode</item>
+        <item>videodubbing</item>
+        <item>wordtussle</item>
+        <item>xquizit</item>
+    </string-array>
+
+    <string-array name="event_png" >
+        <item>event_bigbang</item>
+        <item>event_blooddonate</item>
+        <item>event_brainfuzz</item>
+        <item>event_chakravyuha</item>
+        <item>event_codeinless</item>
+        <item>event_crossword</item>
+        <item>event_foqs</item>
+        <item>event_huntit</item>
+        <item>event_metromix</item>
+        <item>event_overnighackthon</item>
+        <item>event_pool</item>
+        <item>event_prayatna</item>
+        <item>event_proconjunior</item>
+        <item>event_procon</item>
+        <item>event_pwned</item>
+        <item>event_rebuttal</item>
+        <item>event_robocon</item>
+        <item>event_segfault</item>
+        <item>event_seminarseries</item>
+        <item>event_sudoku</item>
+        <item>event_systemskills</item>
+        <item>event_techathlon</item>
+        <item>event_technicaltambola</item>
+        <item>event_toasttocode</item>
+        <item>event_videodubbing</item>
+        <item>event_wordtussle</item>
+        <item>event_xquizit</item>
+    </string-array>
+
+    <array name="event_icons" >
+        <item>@drawable/event_bigbang</item>
+        <item>@drawable/event_blooddonate</item>
+        <item>@drawable/event_brainfuzz</item>
+        <item>@drawable/event_chakravyuha</item>
+        <item>@drawable/event_codeinless</item>
+        <item>@drawable/event_crossword</item>
+        <item>@drawable/event_foqs</item>
+        <item>@drawable/event_huntit</item>
+        <item>@drawable/event_metromix</item>
+        <item>@drawable/event_overnighackthon</item>
+        <item>@drawable/event_pool</item>
+        <item>@drawable/event_prayatna</item>
+        <item>@drawable/event_proconjunior</item>
+        <item>@drawable/event_procon</item>
+        <item>@drawable/event_pwned</item>
+        <item>@drawable/event_rebuttal</item>
+        <item>@drawable/event_robocon</item>
+        <item>@drawable/event_segfault</item>
+        <item>@drawable/event_seminarseries</item>
+        <item>@drawable/event_sudoku</item>
+        <item>@drawable/event_systemskills</item>
+        <item>@drawable/event_techathlon</item>
+        <item>@drawable/event_technicaltambola</item>
+        <item>@drawable/event_toasttocode</item>
+        <item>@drawable/event_videodubbing</item>
+        <item>@drawable/event_wordtussle</item>
+        <item>@drawable/event_xquizit</item>
+    </array>
+
 </resources>

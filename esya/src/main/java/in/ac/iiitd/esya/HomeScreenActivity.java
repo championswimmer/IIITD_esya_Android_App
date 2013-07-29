@@ -26,6 +26,8 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.view.ViewPager;
 import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 import android.widget.TabHost;
 import android.widget.TabHost.TabContentFactory;
 
@@ -35,6 +37,7 @@ import java.util.Vector;
 
 import in.ac.iiitd.esya.fragments.EventDialog;
 import in.ac.iiitd.esya.tabfragments.EsyaTabFragment;
+import in.ac.iiitd.esya.tabfragments.OngoingTabFragment;
 import in.ac.iiitd.esya.tabfragments.ScheduleTabFragment;
 import in.ac.iiitd.esya.utils.PagerAdapter;
 
@@ -108,6 +111,7 @@ public class HomeScreenActivity extends FragmentActivity implements TabHost.OnTa
         // Intialise ViewPager
         this.intialiseViewPager();
         PACKAGE_NAME = getApplicationContext().getPackageName();
+
     }
 
     /** (non-Javadoc)
@@ -126,6 +130,7 @@ public class HomeScreenActivity extends FragmentActivity implements TabHost.OnTa
         List<Fragment> fragments = new Vector<Fragment>();
         fragments.add(Fragment.instantiate(this, EsyaTabFragment.class.getName()));
         fragments.add(Fragment.instantiate(this, ScheduleTabFragment.class.getName()));
+        fragments.add(Fragment.instantiate(this, OngoingTabFragment.class.getName()));
         this.mPagerAdapter  = new PagerAdapter(super.getSupportFragmentManager(), fragments);
         //
         this.mViewPager = (ViewPager)super.findViewById(R.id.viewpager);
@@ -143,6 +148,8 @@ public class HomeScreenActivity extends FragmentActivity implements TabHost.OnTa
         HomeScreenActivity.AddTab(this, this.mTabHost, this.mTabHost.newTabSpec("Tab1").setIndicator("Esya"), (tabInfo = new TabInfo("Tab1", EsyaTabFragment.class, args)));
         this.mapTabInfo.put(tabInfo.tag, tabInfo);
         HomeScreenActivity.AddTab(this, this.mTabHost, this.mTabHost.newTabSpec("Tab2").setIndicator("Schedule"), (tabInfo = new TabInfo("Tab2", ScheduleTabFragment.class, args)));
+        this.mapTabInfo.put(tabInfo.tag, tabInfo);
+        HomeScreenActivity.AddTab(this, this.mTabHost, this.mTabHost.newTabSpec("Tab3").setIndicator("Ongoing"), (tabInfo = new TabInfo("Tab3", OngoingTabFragment.class, args)));
         this.mapTabInfo.put(tabInfo.tag, tabInfo);
         // Default to first tab
         //this.onTabChanged("Tab1");
