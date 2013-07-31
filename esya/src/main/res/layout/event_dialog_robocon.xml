@@ -16,7 +16,11 @@
   ~     You should have received a copy of the GNU General Public License
   ~     along with this program.  If not, see <http://www.gnu.org/licenses/>.
   -->
-
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:id="@+id/dialog_event_robocon"
               android:orientation="vertical"
@@ -57,4 +61,32 @@
             android:id="@+id/aboutTextRobocon"
             android:layout_gravity="center"/>
 
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Contact"
+            android:id="@+id/textViewContactTitle"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginTop="10dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:text="Prafful Bansal
+            \n Prafful12148@iiitd.ac.in
+\n +91-7838183404
+\n
+\n Simranjit Bakshi
+\n Simranjit12105@iiitd.ac.in
+\n +91-9999488838
+\n
+\n Aman Singhal
+\n Aman12127@iiitd.ac.in
+\n +91-9868121005"
+            android:id="@+id/textViewTItle"
+            android:layout_gravity="left|center_vertical"/>
+
 </LinearLayout>
+</ScrollView>

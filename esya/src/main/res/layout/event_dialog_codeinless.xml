@@ -16,6 +16,11 @@
   ~     You should have received a copy of the GNU General Public License
   ~     along with this program.  If not, see <http://www.gnu.org/licenses/>.
   -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:id="@+id/dialog_event_codeinless"
@@ -47,5 +52,26 @@
             android:id="@+id/aboutTextCodeinless"
             android:layout_gravity="center"/>
 
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Contact"
+            android:id="@+id/textViewContactTitle"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginTop="10dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:text="Siddhant Jain Siddhant11109@iiitd.ac.in
+\nNitika Jain Nitika11073@iiitd.ac.in
+\nShubham Agarwal Shubham11106@iiitd.ac.in
+\nKshitij Jain Kshitij11060@iiitd.ac.in"
+            android:id="@+id/textViewTItle"
+            android:layout_gravity="left|center_vertical"/>
+
 
 </LinearLayout>
+</ScrollView>

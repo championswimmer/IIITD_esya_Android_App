@@ -51,6 +51,7 @@ public class HomeScreenActivity extends FragmentActivity implements TabHost.OnTa
 
     public String events[], eventText;
     public int event_start_day[], event_start_hour[], event_start_minute[];
+    public int event_end_day[], event_end_hour[], event_end_minute[];
     public int totalEvents;
 
     public static String PACKAGE_NAME;
@@ -183,6 +184,7 @@ public class HomeScreenActivity extends FragmentActivity implements TabHost.OnTa
         try {
             getEventDetails();
             checkIfStarted();
+            checkIfEnded();
         } catch (Exception e) {
             //Exit gracefully if cannot update event status
         }
@@ -262,6 +264,10 @@ public class HomeScreenActivity extends FragmentActivity implements TabHost.OnTa
         event_start_day = getResources().getIntArray(R.array.event_start_day);
         event_start_hour = getResources().getIntArray(R.array.event_start_hour);
         event_start_minute = getResources().getIntArray(R.array.event_start_minute);
+        event_end_day = getResources().getIntArray(R.array.event_end_day);
+        event_end_hour = getResources().getIntArray(R.array.event_end_hour);
+        event_end_minute = getResources().getIntArray(R.array.event_end_minute);
+
     }
 
     public void checkIfStarted () {
@@ -286,6 +292,26 @@ public class HomeScreenActivity extends FragmentActivity implements TabHost.OnTa
                 ongoingTextView.setTextColor(Color.GREEN);
             }
 
+        }
+    }
+
+    public void checkIfEnded () {
+        int i;
+        long timeNow = Calendar.getInstance().getTimeInMillis();
+        long timeEvent;
+        Calendar eventTime = Calendar.getInstance();
+        for ( i = 0; i < totalEvents; i++ ) {
+            eventText = "ongoing" + events[i] + "text";
+            eventTime.set(2013, 7, event_end_day[i], event_end_hour[i], event_end_minute[i]);
+            timeEvent = eventTime.getTimeInMillis();
+            //Log.d("ARNAV", eventText);
+            int viewid = getResources().getIdentifier(eventText, "id", getPackageName());
+            //Log.d("ARNAV", eventText + " " + viewid);
+            TextView ongoingTextView = (TextView)this. findViewById(viewid);
+            if ( timeNow > timeEvent) {
+                ongoingTextView.setText("Ended");
+                ongoingTextView.setTextColor(Color.RED);
+            }
         }
     }
 

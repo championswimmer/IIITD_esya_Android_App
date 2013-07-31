@@ -201,62 +201,62 @@
     </integer-array>
 
     <integer-array name="event_end_day">
-        <item>00</item> <!-- bigbang -->
+        <item>17</item> <!-- bigbang -->
         <item>00</item> <!-- blooddonate -->
-        <item>00</item> <!-- brainfuzz -->
+        <item>16</item> <!-- brainfuzz -->
         <item>00</item> <!-- chakravyuha -->
-        <item>00</item> <!-- codeinless -->
+        <item>17</item> <!-- codeinless -->
         <item>00</item> <!-- crossword -->
-        <item>00</item> <!-- foqs -->
-        <item>00</item> <!-- huntit -->
-        <item>00</item> <!-- metromix -->
-        <item>00</item> <!-- overnighackthon -->
+        <item>17</item> <!-- foqs -->
+        <item>16</item> <!-- huntit -->
+        <item>17</item> <!-- metromix -->
+        <item>17</item> <!-- overnighackthon -->
         <item>00</item> <!-- pool -->
-        <item>00</item> <!-- prayatna -->
-        <item>00</item> <!-- proconjunior -->
-        <item>00</item> <!-- procon -->
-        <item>00</item> <!-- pwned -->
-        <item>00</item> <!-- rebuttal -->
-        <item>00</item> <!-- robocon -->
-        <item>00</item> <!-- segfault -->
-        <item>00</item> <!-- seminarseries -->
+        <item>16</item> <!-- prayatna -->
+        <item>17</item> <!-- proconjunior -->
+        <item>16</item> <!-- procon -->
+        <item>16</item> <!-- pwned -->
+        <item>17</item> <!-- rebuttal -->
+        <item>16</item> <!-- robocon -->
+        <item>17</item> <!-- segfault -->
+        <item>16</item> <!-- seminarseries -->
         <item>00</item> <!-- sudoku -->
-        <item>00</item> <!-- systemskills -->
+        <item>16</item> <!-- systemskills -->
         <item>00</item> <!-- techathlon -->
         <item>00</item> <!-- technicaltambola -->
-        <item>00</item> <!-- toasttocode -->
+        <item>17</item> <!-- toasttocode -->
         <item>00</item> <!-- videodubbing -->
         <item>00</item> <!-- wordtussle -->
-        <item>00</item> <!-- xquizit -->
+        <item>17</item> <!-- xquizit -->
     </integer-array>
     <integer-array name="event_end_hour">
-        <item>00</item> <!-- bigbang -->
+        <item>15</item> <!-- bigbang -->
         <item>00</item> <!-- blooddonate -->
-        <item>00</item> <!-- brainfuzz -->
+        <item>13</item> <!-- brainfuzz -->
         <item>00</item> <!-- chakravyuha -->
-        <item>00</item> <!-- codeinless -->
+        <item>15</item> <!-- codeinless -->
         <item>00</item> <!-- crossword -->
-        <item>00</item> <!-- foqs -->
-        <item>00</item> <!-- huntit -->
-        <item>00</item> <!-- metromix -->
-        <item>00</item> <!-- overnighackthon -->
+        <item>14</item> <!-- foqs -->
+        <item>19</item> <!-- huntit -->
+        <item>22</item> <!-- metromix -->
+        <item>11</item> <!-- overnighackthon -->
         <item>00</item> <!-- pool -->
-        <item>00</item> <!-- prayatna -->
-        <item>00</item> <!-- proconjunior -->
-        <item>00</item> <!-- procon -->
-        <item>00</item> <!-- pwned -->
-        <item>00</item> <!-- rebuttal -->
-        <item>00</item> <!-- robocon -->
-        <item>00</item> <!-- segfault -->
-        <item>00</item> <!-- seminarseries -->
+        <item>15</item> <!-- prayatna -->
+        <item>12</item> <!-- proconjunior -->
+        <item>15</item> <!-- procon -->
+        <item>19</item> <!-- pwned -->
+        <item>16</item> <!-- rebuttal -->
+        <item>19</item> <!-- robocon -->
+        <item>13</item> <!-- segfault -->
+        <item>13</item> <!-- seminarseries -->
         <item>00</item> <!-- sudoku -->
-        <item>00</item> <!-- systemskills -->
+        <item>19</item> <!-- systemskills -->
         <item>00</item> <!-- techathlon -->
         <item>00</item> <!-- technicaltambola -->
-        <item>00</item> <!-- toasttocode -->
+        <item>18</item> <!-- toasttocode -->
         <item>00</item> <!-- videodubbing -->
         <item>00</item> <!-- wordtussle -->
-        <item>00</item> <!-- xquizit -->
+        <item>17</item> <!-- xquizit -->
     </integer-array>
     <integer-array name="event_end_minute">
         <item>00</item> <!-- bigbang -->
@@ -272,10 +272,10 @@
         <item>00</item> <!-- pool -->
         <item>00</item> <!-- prayatna -->
         <item>00</item> <!-- proconjunior -->
-        <item>00</item> <!-- procon -->
+        <item>30</item> <!-- procon -->
         <item>00</item> <!-- pwned -->
         <item>00</item> <!-- rebuttal -->
-        <item>00</item> <!-- robocon -->
+        <item>30</item> <!-- robocon -->
         <item>00</item> <!-- segfault -->
         <item>00</item> <!-- seminarseries -->
         <item>00</item> <!-- sudoku -->
@@ -287,6 +287,7 @@
         <item>00</item> <!-- wordtussle -->
         <item>00</item> <!-- xquizit -->
     </integer-array>
+
 
 
 </resources>

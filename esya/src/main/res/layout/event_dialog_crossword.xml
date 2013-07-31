@@ -16,6 +16,11 @@
   ~     You should have received a copy of the GNU General Public License
   ~     along with this program.  If not, see <http://www.gnu.org/licenses/>.
   -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:id="@+id/dialog_event_crossword"
@@ -48,5 +53,25 @@ The team who completes it first ,wins!"
             android:id="@+id/aboutTextCrossword"
             android:layout_gravity="center"/>
 
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Contact"
+            android:id="@+id/textViewContactTitle"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginTop="10dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:text="Megha Arora
+            \n Megha12059@iiitd.ac.in
+            \n +91-9899606333, +91-9873990399"
+            android:id="@+id/textViewTItle"
+            android:layout_gravity="left|center_vertical"/>
+
 
 </LinearLayout>
+</ScrollView>

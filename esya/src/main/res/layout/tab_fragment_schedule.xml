@@ -289,6 +289,55 @@
 
         <TableRow
                 android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/TableRow">
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageViewblooddonate"
+                    android:onClick="blooddonate"
+                    android:src="@drawable/event_blooddonate"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageViewblooddonate"
+                    android:onClick="blooddonate"
+                    android:src="@drawable/event_blooddonate"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageViewblooddonate"
+                    android:onClick="blooddonate"
+                    android:src="@drawable/event_blooddonate"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageViewblooddonate"
+                    android:onClick="blooddonate"
+                    android:src="@drawable/event_blooddonate"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageViewblooddonate"
+                    android:onClick="blooddonate"
+                    android:src="@drawable/event_blooddonate"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageViewblooddonate"
+                    android:onClick="blooddonate"
+                    android:src="@drawable/event_blooddonate"/>
+
+        </TableRow>
+
+        <TableRow
+                android:layout_width="fill_parent"
                 android:layout_height="fill_parent">
 
             <TextView
