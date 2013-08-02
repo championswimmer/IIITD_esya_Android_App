@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright (c) 2013. Arnav Gupta
+  ~
+  ~     This program is free software: you can redistribute it and/or modify
+  ~     it under the terms of the GNU General Public License, version 3, as
+  ~     published by
+  ~     the Free Software Foundation.
+  ~
+  ~     This program is distributed in the hope that it will be useful,
+  ~     but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~     GNU General Public License for more details.
+  ~
+  ~     You should have received a copy of the GNU General Public License
+  ~     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<ScrollView
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="10dp">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="
+
+‘Esya’ is a Sanskrit term meaning ‘exploration’ and stands testimony to our vision of exploring the unexplored and making the world a better place to live in.
+\n\n
+Esya ’13 is the third version of IIIT-Delhi’s tech fest. On 3rd and 4th September 2011, the first techfest of IIIT-Delhi was held with remarkable enthusiasm and overwhelming participation. With about a dozen events attended by participants numbering around two grand, the technical festival has strung the right chord among the CS/IT students &amp; enthusiasts of Delhi.
+\n\n
+Our vision for Esya ’13 is to bring together talented and motivated students from across India and provide them with a platform where they can explore and perform things differently.
+\n\n
+Esya goes beyond being a simple Science and Technology competition. Unlike Aristotle’s principle of Episteme where your scientific knowledge needs to be governed by a first principle, we encourage participants to make their own first principles based on what they believe to be correct.
+\n\n
+We aim to nurture the ideas that come forth in the spirit of healthy competition. To accomplish the same, we intend to create opportunities such as collaboration among students and industry guidance to materialize such ideas.
+"
+                android:id="@+id/textView"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:padding="10dp"/>
+    </RelativeLayout>
+</ScrollView>

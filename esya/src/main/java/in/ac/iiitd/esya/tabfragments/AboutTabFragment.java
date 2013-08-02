@@ -28,7 +28,7 @@ import in.ac.iiitd.esya.R;
 /**
  * Created by championswimmer on 25/7/13.
  */
-public class EsyaTabFragment extends Fragment {
+public class AboutTabFragment extends Fragment {
     /* TODO
     * Major TODO here.
     * Handle the clicks of the various events and show them in
@@ -47,6 +47,6 @@ public class EsyaTabFragment extends Fragment {
             // the view hierarchy; it would just never be used.
             return null;
         }
-        return inflater.inflate(R.layout.tab_fragment_esya, container, false);
+        return inflater.inflate(R.layout.tab_fragment_about, container, false);
     }
 }

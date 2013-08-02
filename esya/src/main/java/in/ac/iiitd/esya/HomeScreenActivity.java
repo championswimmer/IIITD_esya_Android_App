@@ -39,7 +39,7 @@ import java.util.List;
 import java.util.Vector;
 
 import in.ac.iiitd.esya.fragments.EventDialog;
-import in.ac.iiitd.esya.tabfragments.EsyaTabFragment;
+import in.ac.iiitd.esya.tabfragments.AboutTabFragment;
 import in.ac.iiitd.esya.tabfragments.OngoingTabFragment;
 import in.ac.iiitd.esya.tabfragments.ScheduleTabFragment;
 import in.ac.iiitd.esya.utils.PagerAdapter;
@@ -137,7 +137,7 @@ public class HomeScreenActivity extends FragmentActivity implements TabHost.OnTa
     private void intialiseViewPager() {
 
         List<Fragment> fragments = new Vector<Fragment>();
-        fragments.add(Fragment.instantiate(this, EsyaTabFragment.class.getName()));
+        fragments.add(Fragment.instantiate(this, AboutTabFragment.class.getName()));
         fragments.add(Fragment.instantiate(this, ScheduleTabFragment.class.getName()));
         fragments.add(Fragment.instantiate(this, OngoingTabFragment.class.getName()));
         this.mPagerAdapter  = new PagerAdapter(super.getSupportFragmentManager(), fragments);
@@ -154,7 +154,7 @@ public class HomeScreenActivity extends FragmentActivity implements TabHost.OnTa
         mTabHost = (TabHost)findViewById(android.R.id.tabhost);
         mTabHost.setup();
         TabInfo tabInfo = null;
-        HomeScreenActivity.AddTab(this, this.mTabHost, this.mTabHost.newTabSpec("Tab1").setIndicator("Esya"), (tabInfo = new TabInfo("Tab1", EsyaTabFragment.class, args)));
+        HomeScreenActivity.AddTab(this, this.mTabHost, this.mTabHost.newTabSpec("Tab1").setIndicator("About"), (tabInfo = new TabInfo("Tab1", AboutTabFragment.class, args)));
         this.mapTabInfo.put(tabInfo.tag, tabInfo);
         HomeScreenActivity.AddTab(this, this.mTabHost, this.mTabHost.newTabSpec("Tab2").setIndicator("Schedule"), (tabInfo = new TabInfo("Tab2", ScheduleTabFragment.class, args)));
         this.mapTabInfo.put(tabInfo.tag, tabInfo);
