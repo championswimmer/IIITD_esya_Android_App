@@ -51,5 +51,13 @@
             android:id="@+id/aboutTextHuntit"
             android:layout_gravity="center"/>
 
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:id="@+id/buttonRegister"
+            android:onClick="registerhuntit"
+            android:layout_gravity="center"/>
+
 </LinearLayout>
 </ScrollView>

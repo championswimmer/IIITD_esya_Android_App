@@ -52,5 +52,13 @@
             android:id="@+id/aboutTextOvernighackthon"
             android:layout_gravity="center"/>
 
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:id="@+id/buttonRegister"
+            android:onClick="registerovernighackthon"
+            android:layout_gravity="center"/>
+
 </LinearLayout>
 </ScrollView>

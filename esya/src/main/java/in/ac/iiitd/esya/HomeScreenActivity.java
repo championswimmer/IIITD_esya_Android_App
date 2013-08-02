@@ -19,7 +19,9 @@
 package in.ac.iiitd.esya;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Color;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
 import android.support.v4.app.Fragment;
@@ -314,5 +316,27 @@ public class HomeScreenActivity extends FragmentActivity implements TabHost.OnTa
             }
         }
     }
+
+    public void goToLink (String link) {
+        Uri webUri = Uri.parse(link);
+        Intent launchWeb = new Intent(Intent.ACTION_VIEW, webUri);
+        startActivity(launchWeb);
+    }
+
+    public void registertechathlon (View v) { goToLink("https://docs.google.com/a/iiitd.ac.in/forms/d/1n6wLicjWNA-UPiDxWdyx1FA1uRZOpBJBePkECyjtsB0/viewform");}
+    public void registerrobocon (View v) { goToLink("https://docs.google.com/a/iiitd.ac.in/forms/d/1r9eF00chPsyC37QK5GNErwIYdDLWkCvksf33GFAigL4/viewform");}
+    public void registerovernighackthon (View v) { goToLink("https://docs.google.com/a/iiitd.ac.in/forms/d/1XeQnKVHWCMOXZncsmFe1DcCLQg03G40RQ_FfFBmO9PM/viewform");}
+    public void registerpwned (View v) { goToLink("https://docs.google.com/a/iiitd.ac.in/forms/d/1QP1LGJnjrO2eZXcKfy2gBU9GFNaBHrE4f9A9dQjcAsY/viewform");}
+    public void registerrebuttal (View v) { goToLink("https://docs.google.com/a/iiitd.ac.in/forms/d/1A4koEPdw2NNFk9BPSDuJMQMVtnVEn_Uw8j1kS1OlqSA/viewform");}
+    public void registerxquizit (View v) { goToLink("https://docs.google.com/a/iiitd.ac.in/forms/d/1v9vUGX-GE6WP5K4b41SysoKImZGv-MlqPxdDBfgtfrI/viewform");}
+    public void registerbigbang (View v) { goToLink("https://docs.google.com/a/iiitd.ac.in/forms/d/1FEVR8ONv-foJfPbb0NZCXkfbe7PAZ8VWV7hQeb07J1c/viewform");}
+    public void registerbrainfuzz (View v) { goToLink("https://docs.google.com/a/iiitd.ac.in/forms/d/1n6wLicjWNA-UPiDxWdyx1FA1uRZOpBJBePkECyjtsB0/viewform");}
+    public void registerprocon (View v) { goToLink("https://docs.google.com/a/iiitd.ac.in/forms/d/1n6wLicjWNA-UPiDxWdyx1FA1uRZOpBJBePkECyjtsB0/viewform");}
+    public void registercodeinless (View v) { goToLink("https://docs.google.com/a/iiitd.ac.in/forms/d/1n6wLicjWNA-UPiDxWdyx1FA1uRZOpBJBePkECyjtsB0/viewform");}
+    public void registersystemskills (View v) { goToLink("https://docs.google.com/a/iiitd.ac.in/forms/d/1n6wLicjWNA-UPiDxWdyx1FA1uRZOpBJBePkECyjtsB0/viewform");}
+    public void registersegfault (View v) { goToLink("https://docs.google.com/a/iiitd.ac.in/forms/d/1n6wLicjWNA-UPiDxWdyx1FA1uRZOpBJBePkECyjtsB0/viewform");}
+    public void registerhuntit (View v) { goToLink("https://docs.google.com/a/iiitd.ac.in/forms/d/1r1-0QreURCQeCPClZ6zImMh6DOR8BN1cRUW5CiuX_90/viewform");}
+    public void registerprayatna (View v) { goToLink("https://docs.google.com/forms/d/10XbVqSmcZweQElC3FK6GIJ9ChrT95kEIG8fUspwFH28/viewform");}
+
 
 }
