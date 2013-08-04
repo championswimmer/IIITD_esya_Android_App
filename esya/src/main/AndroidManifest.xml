@@ -18,8 +18,8 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="in.ac.iiitd.esya"
-    android:versionCode="6"
-    android:versionName="test6">
+    android:versionCode="8"
+    android:versionName="0.8.0">
 
     <uses-sdk
         android:minSdkVersion="8"

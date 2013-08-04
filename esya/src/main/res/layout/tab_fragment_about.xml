@@ -17,19 +17,40 @@
   ~     along with this program.  If not, see <http://www.gnu.org/licenses/>.
   -->
 
-<ScrollView
-        android:layout_width="match_parent"
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_height="wrap_content">
+<RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android">
 
-
-    <RelativeLayout
+    <LinearLayout
+            android:orientation="vertical"
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:padding="10dp">
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentTop="true"
+            android:gravity="center_horizontal"
+            android:id="@+id/esyaIconContainer"
+            android:layout_centerHorizontal="true">
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/esyaIcon"
+                android:src="@drawable/about"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"/>
+
+    </LinearLayout>
+
+    <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView"
+            android:layout_gravity="center"
+            android:layout_below="@id/esyaIconContainer">
 
         <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="
@@ -44,9 +65,9 @@ Esya goes beyond being a simple Science and Technology competition. Unlike Arist
 \n\n
 We aim to nurture the ideas that come forth in the spirit of healthy competition. To accomplish the same, we intend to create opportunities such as collaboration among students and industry guidance to materialize such ideas.
 "
-                android:id="@+id/textView"
-                android:layout_centerVertical="true"
-                android:layout_centerHorizontal="true"
-                android:padding="10dp"/>
-    </RelativeLayout>
-</ScrollView>
+                android:id="@+id/textAboutEsya"
+                android:gravity="center|center_vertical|center_horizontal|fill"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"/>
+    </ScrollView>
+</RelativeLayout>
