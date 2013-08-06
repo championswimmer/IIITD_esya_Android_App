@@ -65,10 +65,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:autoLink="all"
-            android:text="Siddhant Jain Siddhant11109@iiitd.ac.in
-\nNitika Jain Nitika11073@iiitd.ac.in
-\nShubham Agarwal Shubham11106@iiitd.ac.in
-\nKshitij Jain Kshitij11060@iiitd.ac.in"
+            android:text="Sahil Dhanda
+            \n Sahil11095@iiitd.ac.in
+\n +91-9711894889
+\n
+\nNitika Jain
+\n Nitika11073@iiitd.ac.in
+\n +91-9868428429
+\n
+\nShubham Agarwal
+\n Shubham11106@iiitd.ac.in
+\n +91-8826165365
+\n
+\nKshitij Jain
+\n Kshitij11060@iiitd.ac.in
+\n +91-9711242852"
             android:id="@+id/textViewTItle"
             android:layout_gravity="left|center_vertical"/>
 
